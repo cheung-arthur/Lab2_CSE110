@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lebron's Team Meeting Minutes</title>
+    <link rel="icon" href="favicon.jpg">
+</head>
+<body>
+    <header>
+        <h1>Lebron's Team Meeting Minutes</h1>
+        <p><strong>Meeting Type:</strong>Weekly Team Standup</p>
+        <p>
+            <b>Date:</b> April 7, 2026 <br>
+            <b>Time:</b> 5:00PM - 6:00PM <br>
+            <b>Location:</b> EBU3B 240
+        </p>
+
+        <nav>
+            <h2>Page Navigation</h2>
+            <ul>
+                <li><a href="#attendance">Attendance</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#unfinished">Unfinished Business</a></li>
+                <li><a href="#new-business">New Business</a></li>
+                <li><a href="#misc">Miscelleaneous</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="feedback-form">Feedback Form</a></li>
+            </ul>
+        </nav>
+
+        <hr>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>Meeting Title</h2>
+            <p>Week 2 Team Strategy and Game Prep</p>
+            <div>
+                <span>Recorder: </span> Austin Reaves
+            </div>
+        </section>
+
+        <section id="attendance">
+            <h2>Attendance</h2>
+            <p>Team members who were present:</p>
+            <ul>
+                <li><strong>Lebron James</strong> - Team Captain</li>
+                <li><strong>Austin Reaves</strong> - Guard</li>
+                <li><strong>Luka Doncic</strong> - Playmaker</li>
+                <li><strong>Steph Curry</strong> - Shooter</li>
+                <li><strong>Kevin Durant</strong> - Forward</li>
+                <li><strong>Anthony Davis</strong> - Defensive Anchor</li>
+            </ul>
+        </section>
+
+        <section id="agenda">
+            <h2>Agenda</h2>
+            <ol>
+                <li>Review last game's performance</li>
+                <li>Discuss offense and ball movement</li>
+                <li>Go over defensive adjustments needed for next team we face</li>
+                <li>Finalize practice focus for this week</li>
+            </ol>
+        </section>
+
+        <section id="unfinished">
+            <h2>Unfinished Business</h2>
+            <h3>Items from Last Meeting</h3>
+            <ul>
+                <li>Improve transition defense after missing shots</li>
+                <li>Continue practiciing corner 3s</li>
+                <li>Working on in-bound plays</li>
+            </ul>
+
+        </section>
+
+        <section id="new-business">
+            <h2>New Business</h2>
+            <h3>Main Discussion Points</h3>
+            <p>
+                The team agreed that the offense needs to create <i>open looks</i> more consistently instead of forcing difficult shots.
+            </p>
+
+            <p>Lebron suggested more motion and quicker passing. Coaching staff recommended mixing in <em>zone defense</em>.</p>
+
+            <p>Steph requested more off-ball screens so he can get cleaner three point attempts <strong>more often</strong></p>
+
+        </section>
+
+        <section id="misc">
+            <h2>Miscelleanous Questions, Comments, and Concerns</h2>
+            <p>The team discussed recovery habits like hydration and stretching. Maybe we should keep electrolyte sources like bananas and snacks ready during long practices</p>
+
+            <p>Another note that bench players should stay mentally ready at any moment in case of quick subs.</p>
+
+            <details>
+                <summary>Click to view action items for next meeting</summary>
+                <ul>
+                    <li>Luka will focus on better ball handling under pressure</li>
+                    <li>Steph will continue strength work to not get bullied in the paint</li>
+                    <li>Durant will review defensive rotations</li>
+                </ul>
+            </details>
+        </section>
+        
+        <section id="media">
+            <h2>Presented Diagram and Meeting Recordings</h2>
+
+            <h3>Whiteboard Sketch</h3>
+            <p>Below is a diagram representing the plays we want to run next game.</p>
+            <img src="media/basketball-play.jpg" alt="Sketch of basketball play for next game">
+
+            <h3>Audio Recording of the Meeting</h3>
+            <audio controls>
+                <source src="media/highlights.mp3">
+            </audio>
+
+            <h3>Video Recording of the Meeting</h3>
+            <video controls>
+                <source src="media/highlights.mp4">
+            </video>
+        </section>
+
+        <section>
+            <h2>Team Resources</h2>
+            <p>
+                View the season schedule here:
+                <a href="https://www.nba.com/">NBA Official Website</a>
+            </p>
+        </section>
+
+        <section id="feedback-form">
+            <h2>Meeting Follow-Up Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Share your follow-up thoughts</legend>
+
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </p>
+
+                    <p>
+                        <label for="practice-date">Preferrred practice date:</label>
+                        <input type="date" id="practice-date" name="practice-date">
+                    </p>
+
+                    <p>
+                        <label for="position">Position group</label>
+                        <input list="positions" id="position" name="position">
+                        <datalist id="positions">
+                            <option value="Guard"></option>
+                            <option value="Forward"></option>
+                            <option value="Center"></option>
+
+                        </datalist>
+                    </p>
+
+                    <p>
+                        <label for="focus">Main practice focus</label>
+                        <select name="focus" id="focus">
+                            <option value="">Select One:</option>
+                            <option value="shooting">Shooting</option>
+                            <option value="defense">Defense</option>
+                            <option value="conditioning">Conditioning</option>
+
+                        </select>
+                    </p>
+
+                    <p>
+                        Practice Intensity <br>
+                        <label><input type="radio" name="intensity" value="high">High</label> <br>
+                        <label><input type="radio" name="intensity" value="medium">Medium</label> <br>
+                        <label><input type="radio" name="intensity" value="low">Low</label>
+
+                    </p>
+
+                    <p>
+                        Areas you want extra help with: <br>
+                        <label><input type="checkbox" name="help" value="shooting">Shooting</label>
+                        <label><input type="checkbox" name="help" value="defense">Defense</label>
+                        <label><input type="checkbox" name="help" value="conditioning">Conditioning</label>
+                        
+                    </p>
+
+                    <p>
+                        <label for="notes">Additional Notes:</label>
+                        <textarea name="notes" id="notes" rows="5" cols="45"></textarea>
+                    </p>
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Prepared for next game.</p>
+    </footer>
+    
+</body>
+</html>
